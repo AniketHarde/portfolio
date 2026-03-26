@@ -3,27 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Aniket Harde | Ruby on Rails Developer</title>
-
+    <title>Aniket Harde | Full Stack Engineer</title>
     <meta
       name="description"
-      content="Aniket Harde - Ruby on Rails Developer with 4+ years experience building scalable web applications and REST APIs."
+      content="Aniket Harde - Full Stack Engineer specializing in Ruby on Rails, GraphQL, and modern web technologies."
     />
-
     <link rel="stylesheet" href="portstyle.css" />
-
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
   </head>
-
   <body>
+    <!-- NOISE OVERLAY -->
+    <div class="noise"></div>
+
+    <!-- HEADER -->
     <header>
       <div class="header-container">
-        <h2 class="logo">Aniket Harde</h2>
-
+        <a href="#" class="logo">AH<span class="logo-dot">.</span></a>
         <nav>
           <ul>
             <li><a href="#about">About</a></li>
@@ -31,18 +29,12 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-
-            <li>
-              <a href="https://github.com/AniketHarde" target="_blank"
-                >GitHub</a
-              >
-            </li>
-
             <li>
               <a
-                href="https://www.linkedin.com/in/aniket-harde-7a3892191/"
+                href="https://github.com/AniketHarde"
                 target="_blank"
-                >LinkedIn</a
+                class="nav-cta"
+                >GitHub ↗</a
               >
             </li>
           </ul>
@@ -51,193 +43,363 @@
     </header>
 
     <!-- HERO -->
-
     <section class="hero">
-      <div class="hero-text">
-        <h1>Hi 👋 I'm Aniket Harde</h1>
-
-        <h3>Ruby on Rails Developer</h3>
-
-        <p>
-          Ruby on Rails developer with 4+ years of experience building scalable
-          web applications and RESTful APIs. Experienced with PostgreSQL, Redis,
-          Sidekiq, and modern backend architecture. Passionate about clean code,
-          system design, and performance optimization.
+      <div class="hero-bg-text">ENGINEER</div>
+      <div class="hero-content">
+        <div class="hero-badge">Available for opportunities</div>
+        <h1>Hi, I'm <span class="accent">Aniket Harde</span></h1>
+        <h2 class="hero-role">Full Stack Engineer</h2>
+        <p class="hero-desc">
+          5+ years building production-grade web applications, microservices
+          architectures, and high-performance APIs. Passionate about clean
+          systems, scalable backends, and shipping products that matter.
         </p>
-
+        <div class="hero-stack">
+          <span>Rails</span><span>GraphQL</span><span>React</span
+          ><span>PostgreSQL</span><span>Docker</span>
+        </div>
         <div class="hero-buttons">
-          <a href="#projects"><button>View Projects</button></a>
-
-          <a href="aniket_harde_resume.pdf" target="_blank">
-            <button class="secondary">Download Resume</button>
-          </a>
+          <a href="#projects"
+            ><button class="btn-primary">View Projects</button></a
+          >
+          <a href="aniket_harde_resume.pdf" target="_blank"
+            ><button class="btn-secondary">Download Resume ↓</button></a
+          >
         </div>
       </div>
-
-      <div class="hero-image">
-        <img src="hero2.png" alt="coding gif" />
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <div class="photo-glow"></div>
+          <img src="aniket.png" alt="Aniket Harde" class="hero-photo" />
+          <div class="photo-border-accent"></div>
+        </div>
+        <div class="hero-stat">
+          <span class="stat-num">5+</span>
+          <span class="stat-label">Years Exp.</span>
+        </div>
+        <div class="hero-stat stat-2">
+          <span class="stat-num">4</span>
+          <span class="stat-label">Major Projects</span>
+        </div>
       </div>
     </section>
 
     <!-- ABOUT -->
-
     <section id="about" class="section">
-      <h2>About Me</h2>
-
-      <p class="about-text">
-        Ruby on Rails developer with strong experience building scalable backend
-        systems and RESTful APIs. I enjoy solving complex problems and designing
-        efficient software architecture. I have worked on multiple production
-        systems including CRM platforms, digital signage systems, and enterprise
-        web applications. Currently exploring modern technologies including
-        React, Node.js, and AI-assisted development tools.
-      </p>
+      <div class="section-label">/ About Me</div>
+      <h2 class="section-title">
+        Crafting backends,<br /><span class="accent">shipping experiences</span>
+      </h2>
+      <div class="about-grid">
+        <p>
+          I'm a Full Stack Engineer with a strong focus on backend systems, REST
+          APIs, and GraphQL. I've spent 5+ years at GemsEssence Infotech
+          building and scaling production platforms — from HIPAA-compliant
+          remote care systems to multi-channel CRM microservices.
+        </p>
+        <p>
+          I thrive at the intersection of clean architecture and real-world
+          business problems. Currently exploring React 19, AI integrations with
+          Gemini API, and modern cloud deployments on AWS and Vercel.
+        </p>
+      </div>
     </section>
 
     <!-- EXPERIENCE -->
-
     <section id="experience" class="section">
-      <h2>Professional Experience</h2>
+      <div class="section-label">/ Experience</div>
+      <h2 class="section-title">
+        Where I've <span class="accent">worked</span>
+      </h2>
 
-      <div class="experience-card">
-        <h3>Software Developer</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">Dec 2021 – Dec 2025</span>
+            <span class="timeline-badge">Lead</span>
+          </div>
+          <div class="timeline-card">
+            <h3>Full Stack Engineer</h3>
+            <p class="company">GemsEssence Infotech — Indore</p>
+            <ul>
+              <li>
+                Led development of <em>Simply Home</em> as Lead Developer —
+                managed 100% of client communications and PR reviews, resulting
+                in significant client satisfaction and successful handover.
+              </li>
+              <li>
+                Architected a Docker-containerized microservices environment for
+                Beast CRM integrating 4 stacks (Ruby, Go, Python, Vue.js),
+                improving lead response times by ~30%.
+              </li>
+              <li>
+                Refactored high-latency SQL queries and optimized GraphQL APIs
+                for real-time dashboards, cutting data load times by 50%+.
+              </li>
+              <li>
+                Executed seamless Rails 5→6 migration and maintained 90%+ RSpec
+                test coverage, ensuring zero-downtime deployments.
+              </li>
+            </ul>
+          </div>
+        </div>
 
-        <p><strong>Gems Essence Infotech – Indore</strong></p>
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">June 2020 – Dec 2021</span>
+            <span class="timeline-badge">Junior</span>
+          </div>
+          <div class="timeline-card">
+            <h3>Junior Software Engineer</h3>
+            <p class="company">GemsEssence Infotech — Indore</p>
+            <ul>
+              <li>
+                Collaborated in a 3-member team to maintain and scale the
+                frontends of UCView and Simply Home using JavaScript, jQuery,
+                HAML, AJAX, CSS, Tailwind, and Rails.
+              </li>
+              <li>
+                Participated in client meetings to translate business
+                requirements into working frontend features for a US-based
+                clientele.
+              </li>
+            </ul>
+          </div>
+        </div>
 
-        <p>January 2020 – December 2025</p>
-
-        <ul>
-          <li>
-            Architected and scaled Ruby on Rails applications supporting 1,000+
-            active users, ensuring 99.9% uptime through optimized caching and
-            background processing.
-          </li>
-
-          <li>
-            Developed high-performance GraphQL and REST APIs that reduced
-            frontend data loading times by 40% and improved mobile app
-            responsiveness.
-          </li>
-
-          <li>
-            Established rigorous code review standards and mentored 3 junior
-            developers, reducing production bugs by 25% and accelerating sprint
-            velocity.
-          </li>
-
-          <li>
-            Optimized complex PostgreSQL queries and redesigned schemas,
-            resulting in a 60% reduction in database latency for reporting
-            modules.
-          </li>
-        </ul>
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">Jan 2020 – June 2020</span>
+            <span class="timeline-badge">Trainee</span>
+          </div>
+          <div class="timeline-card">
+            <h3>Software Trainee</h3>
+            <p class="company">GemsEssence Infotech — Indore</p>
+            <ul>
+              <li>
+                Built full-stack apps (Event Booking & Movie Streaming) using
+                Ruby on Rails with core MVC, RESTful APIs, and relational
+                database management.
+              </li>
+              <li>
+                Engineered comprehensive RSpec test suites following TDD
+                principles; enhanced frontend interactivity with JavaScript and
+                jQuery.
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- SKILLS -->
-
     <section id="skills" class="section">
-      <h2>Tech Stack</h2>
+      <div class="section-label">/ Tech Stack</div>
+      <h2 class="section-title">
+        Tools I <span class="accent">work with</span>
+      </h2>
 
-      <div class="skills-grid">
-        <div class="skill-card">Ruby</div>
-        <div class="skill-card">Ruby on Rails</div>
-        <div class="skill-card">JavaScript</div>
-        <div class="skill-card">jQuery</div>
-        <div class="skill-card">React</div>
-
-        <div class="skill-card">PostgreSQL</div>
-
-        <div class="skill-card">Redis</div>
-        <div class="skill-card">Sidekiq</div>
-
-        <div class="skill-card">RSpec</div>
-        <div class="skill-card">REST APIs</div>
-        <div class="skill-card">GraphQL</div>
-
-        <div class="skill-card">Docker</div>
-        <div class="skill-card">Git</div>
-
-        <div class="skill-card">HTML</div>
-        <div class="skill-card">CSS</div>
+      <div class="skills-categories">
+        <div class="skill-group">
+          <div class="skill-group-title">Frontend</div>
+          <div class="skills-row">
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">React 19</span>
+            <span class="skill-tag">jQuery</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">TailwindCSS</span>
+            <span class="skill-tag">Bootstrap</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title">Backend</div>
+          <div class="skills-row">
+            <span class="skill-tag highlight">Ruby</span>
+            <span class="skill-tag highlight">Ruby on Rails</span>
+            <span class="skill-tag highlight">REST API</span>
+            <span class="skill-tag highlight">GraphQL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title">Database & Cache</div>
+          <div class="skills-row">
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">Redis</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title">Tools & Cloud</div>
+          <div class="skills-row">
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Vercel</span>
+            <span class="skill-tag">Heroku</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Sidekiq</span>
+            <span class="skill-tag">Vite</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title">Testing & AI</div>
+          <div class="skills-row">
+            <span class="skill-tag">RSpec</span>
+            <span class="skill-tag">TDD</span>
+            <span class="skill-tag">Gemini API</span>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- PROJECTS -->
-
     <section id="projects" class="section">
-      <h2>Projects</h2>
+      <div class="section-label">/ Projects</div>
+      <h2 class="section-title">
+        Things I've <span class="accent">built</span>
+      </h2>
 
       <div class="projects-grid">
-        <div class="project-card">
-          <h3>Simply Home</h3>
-
+        <div class="project-card featured">
+          <div class="project-number">01</div>
+          <h3>SimplyHome</h3>
+          <p class="project-type">HIPAA-Compliant Remote Care Platform</p>
           <p>
-            Enables safe and independent living for aging adults and individuals
-            with disabilities. It uses smart home sensors and alerts to monitor
-            daily activities and notify caregivers.
+            Integrates smart sensor technology with a secure mobile ecosystem to
+            support independent living for individuals with disabilities. Led as
+            primary developer, managing client communication and REST API
+            modernization using Rails, HAML, JS, jQuery, and AJAX.
           </p>
-
+          <div class="project-tech">
+            <span>Rails</span><span>HAML</span><span>JS</span
+            ><span>REST API</span><span>AJAX</span>
+          </div>
           <div class="project-links">
-            <a href="#">Live Demo</a>
-
-            <a href="https://github.com/AniketHarde">GitHub</a>
+            <a href="https://github.com/AniketHarde" target="_blank"
+              >GitHub ↗</a
+            >
           </div>
         </div>
 
         <div class="project-card">
-          <h3>Beast CRM</h3>
-
+          <div class="project-number">02</div>
+          <h3>BeastCRM</h3>
+          <p class="project-type">Microservices Communication Platform</p>
           <p>
-            Customer Relationship Management system with WhatsApp integration
-            using Go microservice and Ruby on Rails backend.
+            Centralizes multi-channel customer interactions from WhatsApp,
+            Telegram, and social media. Engineered complex GraphQL schemas for
+            real-time analytics dashboards across 4 tech stacks (Ruby, Go,
+            Python, Vue.js) in Docker.
           </p>
-
+          <div class="project-tech">
+            <span>Rails</span><span>GraphQL</span><span>Go</span
+            ><span>Docker</span><span>SQL</span>
+          </div>
           <div class="project-links">
-            <a href="#">Live Demo</a>
-
-            <a href="#">GitHub</a>
+            <a href="#">GitHub ↗</a>
           </div>
         </div>
 
         <div class="project-card">
-          <h3>Weather Forecast API</h3>
-
+          <div class="project-number">03</div>
+          <h3>SimpleDairy</h3>
+          <p class="project-type">Cloud SaaS — Dairy Supply Chain</p>
           <p>
-            Rails application that retrieves weather forecast data based on
-            address and caches responses using Redis for high performance.
+            Digitizes the end-to-end dairy supply chain with automated milk
+            collection, subscription-based delivery, and integrated billing
+            across a multi-app ecosystem. Achieved 90%+ RSpec coverage,
+            drastically reducing production regressions.
           </p>
-
-          <div class="project-links">
-            <a href="#">Live Demo</a>
-
-            <a href="#">GitHub</a>
+          <div class="project-tech">
+            <span>Rails</span><span>REST API</span><span>RSpec</span
+            ><span>PostgreSQL</span>
           </div>
+          <div class="project-links">
+            <a href="#">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">04</div>
+          <h3>UCView</h3>
+          <p class="project-type">Enterprise Digital Signage & IPTV</p>
+          <p>
+            Enterprise-grade cloud platform enabling global businesses to
+            remotely manage, schedule, and stream content across thousands of
+            synchronized displays. Optimized complex JS/jQuery frontend for
+            performance and seamless user interaction.
+          </p>
+          <div class="project-tech">
+            <span>JavaScript</span><span>jQuery</span><span>CSS</span
+            ><span>Rails</span>
+          </div>
+          <div class="project-links">
+            <a href="#">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="section-label">/ Education</div>
+      <h2 class="section-title">
+        Academic <span class="accent">background</span>
+      </h2>
+      <div class="edu-card">
+        <div class="edu-icon">🎓</div>
+        <div class="edu-info">
+          <h3>Bachelor of Engineering — Computer Science</h3>
+          <p class="edu-school">
+            Astral Institute, Indore (Rajiv Gandhi Proudyogiki University)
+          </p>
+          <p class="edu-year">2016 – 2020 &nbsp;·&nbsp; CGPA: 7.5</p>
         </div>
       </div>
     </section>
 
     <!-- CONTACT -->
-
-    <section id="contact" class="section contact">
-      <h2>Let's Connect</h2>
-
-      <p>
-        I'm always open to discussing interesting projects, collaborations, or
-        backend development opportunities.
+    <section id="contact" class="section contact-section">
+      <div class="section-label">/ Contact</div>
+      <h2 class="section-title">Let's <span class="accent">connect</span></h2>
+      <p class="contact-desc">
+        I'm open to discussing interesting projects, backend roles, or
+        full-stack collaborations. Feel free to reach out.
       </p>
-
-      <div class="contact-links">
-        <a href="mailto:aniketharde.dev@gmail.com">Email</a>
-
-        <a href="https://github.com/AniketHarde">GitHub</a>
-
-        <a href="https://linkedin.com/in/aniket-harde-7a3892191">LinkedIn</a>
+      <div class="contact-grid">
+        <a
+          href="/cdn-cgi/l/email-protection#a5cdc4d7c1c0c4cbcccec0d19de5c2c8c4ccc98bc6cac8"
+          class="contact-card"
+        >
+          <span class="contact-icon">✉</span>
+          <span class="contact-label">Email</span>
+          <span class="contact-value"
+            ><span
+              class="__cf_email__"
+              data-cfemail="f39b92819796929d9a989687cbb3949e929a9fdd909c9e"
+              >[email&#160;protected]</span
+            ></span
+          >
+        </a>
+        <a
+          href="https://github.com/AniketHarde"
+          target="_blank"
+          class="contact-card"
+        >
+          <span class="contact-icon">⌥</span>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">AniketHarde</span>
+        </a>
+        <a
+          href="https://linkedin.com/in/aniket-harde-7a3892191"
+          target="_blank"
+          class="contact-card"
+        >
+          <span class="contact-icon">in</span>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">aniket-harde</span>
+        </a>
       </div>
     </section>
-
-    <footer>
-      <p>© 2026 Aniket Harde</p>
-    </footer>
   </body>
 </html>
